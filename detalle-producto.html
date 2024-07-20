@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #000000;
+            --very-light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD982;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .primary-button {
+            background-color: var(--hospital-green);
+            border-radius: 8px;
+            border: none;
+            color: var(--white);
+            width: 100%;
+             cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+        }
+        .add-to-cart-button {
+             display: flex;
+             align-items: center;
+            justify-content: center;
+        } 
+    </style>
+</head>
+<body>
+    <aside class="product-detail">
+        <img src="https://cdn.mos.cms.futurecdn.net/b8aYoRQDztjxZZ6ANqPyoa-650-80.jpg.webp" alt="">
+        <img src="https://media.guitarcenter.com/is/image/MMGS7/512940000001000-00-600x600.jpg" alt="">
+        <div class="product-info">
+            <p>$100,00</p>
+            <p>guitar</p>
+        <p>wonderfull guitars</p>   
+        
+            <button class="primary-button add-to-cart-button"></button>
+             <img src="./icons/bt_added_to_cart.svg" alt="add">
+            add to cart
+    </aside>
+         
+</body>
+</html>
